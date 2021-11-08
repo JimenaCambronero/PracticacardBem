@@ -1,0 +1,121 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #e7dee6;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.contenedor__cards {
+	margin: 4.5em 0;
+}
+
+.card {
+	background: rgb(233, 252, 252);
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 4em;
+}
+
+.card__miniatura1 .card__miniatura2 {
+	width: 650px;
+	height: 200px;
+	margin: 1.5em;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.card__img {
+	width: 100%;
+	padding-right: 1em;
+}
+
+.card__titulo {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+	margin-bottom: 1.5em;
+}
+
+.card__enlace {
+	color: rgb(19, 18, 19);
+}
+
+.card__extracto {
+	line-height: 2em;
+	color: #6D6D6D;
+	margin-bottom: 1.5em;
+}
+
+.boton {
+	border: none;
+	min-width: 180px;
+	height: 50px;
+	padding: 0 30px;
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	border-radius: 100px;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #403CC2;
+	transition: .3s ease all;
+}
+
+.boton__texto {
+	font-weight: 600;
+}
+
+.boton:hover {
+	background: #751881;
+	text-decoration: none;
+}
+
+.boton--absolute {
+	position: absolute;
+	right: 2.3em;
+	bottom: -1.8em;
+}
+
+.boton--verde {
+	background: #4d913e;
+}
+
+.boton--verde:hover {
+	background: #437837;
+}
+
+.frase {
+	text-align: center;
+	margin: 4em 0;
+}
+
+.frase__texto {
+	margin-bottom: 1.5em;
+	font-size: 2em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
